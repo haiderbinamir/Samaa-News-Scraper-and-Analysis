@@ -19,10 +19,10 @@ Requirements:
 - Internet connection (for web scraping)
 
 Author:
-[Your Name]
+Muhammad Haider bin Amir
 
 Date:
-[Current Date]
+19 Aug 2023
 
 """
 
