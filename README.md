@@ -41,7 +41,7 @@ import nltk
 # Define constants
 BASE_URL = "https://www.samaaenglish.tv/money/"
 START_DATE = "2023-01-1"
-END_DATE = "2023-01-2"
+END_DATE = "2023-01-31"
 
 
 # Define a function to retrieve article URLs
