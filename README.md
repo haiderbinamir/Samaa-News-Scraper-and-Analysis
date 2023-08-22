@@ -27,15 +27,15 @@ Date:
 """
 
 # Import necessary libraries
-import requests
-import pandas as pd
-from datetime import datetime, timedelta
-from bs4 import BeautifulSoup
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.tokenize import RegexpTokenizer
-from nltk.probability import FreqDist
-from nltk.stem import WordNetLemmatizer
-import nltk
+import requests   
+import pandas as pd   
+from datetime import datetime, timedelta   
+from bs4 import BeautifulSoup   
+from nltk.sentiment import SentimentIntensityAnalyzer   
+from nltk.tokenize import RegexpTokenizer   
+from nltk.probability import FreqDist   
+from nltk.stem import WordNetLemmatizer   
+import nltk   
 
 
 # Define constants
