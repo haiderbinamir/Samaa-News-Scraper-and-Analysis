@@ -8,6 +8,10 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk.tokenize import RegexpTokenizer
 from nltk.probability import FreqDist
 from nltk.stem import WordNetLemmatizer
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Define the base URL and date range
 base_url = "https://www.samaaenglish.tv/money/"
@@ -99,10 +103,6 @@ for article in all_article_list:
         combined_list.append(combined_dict)
 
 # Perform sentiment analysis on article texts
-nltk.download('vader_lexicon')
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
 
 data_list = combined_list
 result_frames = []
